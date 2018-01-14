@@ -1,0 +1,823 @@
+header{
+  margin: 0;
+  top: 0;
+  height: auto;
+  background-size: 100%;
+  background-size: cover;
+}
+#banniere{
+  width: 100%;
+  max-width: 100%;
+}
+
+body{
+  margin: 0;
+  background: url(../img/background.png) no-repeat left top;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Raleway, sans-serif;
+  height: 100%;
+}
+/* --------- MENU ---------*/
+nav{
+  position: absolute;
+  margin-top: -44px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: black;
+}
+
+#logo{
+  position: absolute;
+  right: 0;
+  margin-top: 2px;
+  margin-right: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  width: 250px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: rgb(184, 0, 0);
+}
+
+nav ul li ul li{
+  display: none;
+}
+
+nav ul li:hover ul li{
+  display: block;
+}
+
+/* ------- Footer -------*/
+
+/* CSS General du footer */
+#footer{
+  margin-top: 80px;
+  height: 200px;
+  background-color: black;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 50px 50px;
+  min-width: 500px;
+}
+
+/* Blocs du footer */
+#footer .footer-left,#footer .footer-center,#footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+  width: 33%;
+}
+
+/* Titre des 3 parties du footer */
+#footer .footer-left h3,#footer .footer-center h3,#footer .footer-right h3{
+	color:  white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Paragraphes des 3 parties du footer */
+#footer .footer-left p,#footer .footer-center p,#footer .footer-right p{
+	color:  #92999f;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Listes à puces de la partie gauche du footer */
+#footer .footer-left ul{
+  color:  #92999f;
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 20px;
+  line-height:2;
+}
+
+/* Listes à puces de la partie centrale du footer */
+#footer .footer-center ul{
+  color:  #92999f;
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 20px;
+  line-height:20px;
+}
+
+/* Liens des parties gauche et centre du footer */
+footer .footer-left a,#footer .footer-center a{
+  color:  #92999f;
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* Liens survolés des parties gauche et centre du footer */
+footer .footer-left a:hover,#footer .footer-center a:hover{
+  color:  #92999f;
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+/* Paragraphe de la partie centrale du footer */
+#footer .footer-center p{
+	margin:0;
+}
+
+/* Partie droite du footer */
+#footer .footer-right{
+    line-height: 20px;
+    min-width: 300px;
+}
+
+#footer .footer-left{
+  min-width: 150px;
+}
+
+#footer .footer-center{
+  min-width: 150px;
+}
+
+
+/* --------- PARAGRAPHE PRESENTATION ---------*/
+
+#presentation {
+  width: 50%;
+  height: 100%;
+  color: white;
+  background-color: #424242;
+  text-align: center;
+  margin: 10% auto 5% auto;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 1px 1px 35px #000; /* Contour ombré */
+  border-radius: 10px;  /* Arrondir les bords */
+}
+
+/* ------- Paragraphe entre les images (accueil)--------*/
+
+.explication{
+  background-color: #424242;
+  width: 50%;
+  height: 100%;
+  color: white;
+  padding: 5px 50px 5px 50px;
+  margin: 5% auto ;
+  text-align: justify;
+  box-shadow: 1px 1px 35px #000;
+  border-radius: 10px;
+}
+
+.explication h2{
+  text-align: center;
+}
+
+/* --------- TABLE DES IMAGES ET DE LEUR DESCRIPTION ---------*/
+
+#contenant{
+  background-color: #cccbcb;
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  margin: 10% auto 10px auto;
+  box-shadow: 1px 1px 35px #000;
+  min-width: 500px;
+}
+
+#title{
+  margin-left: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+}
+
+.emplacement1, .emplacement2, .emplacement3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+  display: block;
+  width: 600px;
+  max-width: 90%;
+  height: 100%;
+  max-height: 90%;
+  border-radius: 15px;
+  overflow: hidden; /* Cache ce qui dépasse du conteneur */
+  box-shadow: 1px 1px 35px #000;
+}
+
+/* Zoom image (augmentation de l'échelle) */
+.emplacement1:hover img, .emplacement2:hover #militaire, .emplacement3:hover #civil{
+  transform: scale(1.2);
+}
+
+.emplacement1 img, .emplacement2 img, .emplacement3 img{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.75s; /* Met la durée de la transition lors des "hover" à 0.75s */
+}
+
+.emplacement1:hover #content, .emplacement2:hover #content, .emplacement3:hover #civil{
+  width: 100%;
+}
+
+.emplacement1 #cine, .emplacement2 #militaire, .emplacement3 #civil{
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+
+.emplacement1:hover .content, .emplacement2:hover .content, .emplacement3:hover .content{
+  width: 100%;
+  left: 0;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/fond_image.png);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+/* Texte pour décrire image */
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  top: 58%;
+  left: 50%;
+  margin-left: 50px;
+  width: 350px;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/*------Article------*/
+
+#presentation_article{ /*Texte de présentation de l'article*/
+  margin-top: 120px;
+  width: 53.7%;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+  font-family: Raleway, sans-serif;
+  background-color: #424242;
+  text-align: center;
+  margin-left: 20.8%;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 1px 1px 35px #000
+}
+
+#sommaire_article { /*Sommaire de l'article (attaché au texte de présentation)*/
+  text-align: left;
+}
+
+#Titre_Article {
+  position: relative;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+.contenant_haut{ /*Tout ce qui est sur la partie supérieure de l'article (au desssus du trait)*/
+  background-color: #cccbcb;
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  padding-bottom: 50px;
+  margin: 10% auto 10px auto;
+  box-shadow: 1px 1px 35px #000;
+  min-width: 500px;
+}
+
+.droite{ /*Tout le contenu sur la colonne de droite*/
+  display: inline-block;
+  width: 37.5%;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.gauche{ /*Tout le contenu sur la colonne de gauche*/
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 37.5%;
+  height: 100%;
+  text-align: justify;
+}
+
+.Sous_Titres_Gauche { /*Sous titres des parties de l'article situés dans la colonne de gauche*/
+  text-align: justify;
+  font-family: Arial Black;
+}
+
+#separateur{
+  width: 70%;
+  height: 1px;
+  background-color: #424242;
+  margin: 40px auto 40px auto;
+}
+
+.Sous_Titre_Droite { /*Trait de séparation des deux pages*/
+  text-align: justify;
+  font-family: Arial Black;
+}
+
+#Description_Image_Drone{
+  text-align: center;
+  width: 90%;
+  font-style: italic;
+  margin-left: 5%;
+}
+
+#Image_Drone_Article {
+  width: 100%;
+  margin-right: 10%;
+  padding-top: 25px;
+}
+
+#Image_Drone_Zones_Geographiques_Article {
+  width: 100%;
+  padding-top: 15px;
+}
+
+#Image_Drone_Amazon_Article {
+  width: 100%;
+  margin-right: 10%;
+  padding-top: 5px;
+}
+
+#Texte_Fin_Article {
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* ---------- INTERVIEW ---------*/
+
+#presentation_interview{ /*On détermine ici les paramètres du texte de présentation pour qu'il ressemble à celui de l'acceuil*/
+  width: 50%;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+  font-family: Raleway, sans-serif;
+  background-color: #424242;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 1px 1px 35px #000;
+}
+#presentation_interview img { /*Il s'agit de l'image Advxtreme sur la présentation*/
+  height : 100%;
+  width : 50%;
+}
+#date_I { /*Il s'agit de la date de l'interview*/
+  margin-left: 60%;
+  margin-top: 2%;
+  font-style: italic;
+  color: #A9A9A9;
+}
+/*Définition de l'index*/
+#Index_I {
+  /*ASPECT*/
+  background-color: #424242;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px #000;
+  width:20%;
+  min-width: 290px; /*Pour éviter que l'index soit trop petit*/
+  height: 50%;
+  min-height: 430px;
+  /*POSITIONNEMENT*/
+  margin-left: auto;
+  margin-right: auto;
+  /*TEXTE*/
+  color:#FFF;
+  text-align:center;
+  font-family: Raleway, sans-serif;
+  line-height: 2;
+}
+#Index_I > p { /*Définition de "Sélectionnez une partie"*/
+  font-size: 125%;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 15px #FFF
+}
+/*Définition de l'image de présentation à côté de l'index*/
+.image_debut img{
+  margin-left: 27%;
+  margin-top: 100px;
+  width: 50%;
+  box-shadow: 1px 1px 35px #000
+}
+#text_photo { /*Texte sous la photo d'Antony*/
+  font-size:10px;
+  font-style: italic;
+  margin-left: 30%;
+  margin-bottom: 100px;
+}
+/*Liens de l'index*/
+.link_I {
+  text-decoration: none;
+  color:	#cccbcb;
+  font-weight: bold;
+}
+.link_I:hover { /*Animation*/
+  color: #FFF;
+  font-size:130%;
+  line-height: 1.4;
+}
+/*Texte de l'interview*/
+#interview {
+  font-family: Raleway, sans-serif;
+  width:40%;
+  display: inline-block;
+  margin-left: 3%;
+}
+#interview ol { /*Le texte de synthèse*/
+  text-align: justify;
+  width:45%;
+  min-width: 400px;
+}
+#interview h3 { /*Pour mettre les lettres des titres en majuscule*/
+  text-transform: uppercase;
+}
+#interview a { /*Pour changer le style des liens*/
+  margin-left: 10%;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+/*images sur le côté*/
+.cote_image{
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+/*Photos à côté du texte*/
+#Photo_droniste {  /*1ere photo : le droniste*/
+  margin-top: 8%;
+}
+#Photo_droniste img { /*Pour adapter la photo au cadre, car elle était trop petite en hauteur*/
+  height: 110%;
+}
+#Photo_AD { /*2eme photo : la photo d'Antony Debarre*/
+  margin-top: 55%;
+}
+#Photo_Thermographie { /*3eme photo : la photo de la thermographie*/
+  margin-top: 105%;
+}
+#Photo_Militaire { /*4eme photo : la photo du drone militaire*/
+  margin-top: 155%;
+}
+
+/* ---------- FICHE METIER ---------*/
+
+.text_carte{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.definition{
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 20px 0 20px;
+}
+
+/* Tient tous les éléments et défini la taille ceux-ci*/
+.main1, .main2, .main3{
+  position: relative;
+  width: 250px;
+  height: 320px;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.main2{
+  margin: 5% 5% 0 5%;
+}
+/* Contient le devant et derrière et permet l'animation grâce à "hover"*/
+.carte, .carte2, .carte3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /*Si on ne met pas de preserve 3d, on a que le derrière du devant avec le texte inversé (non celui de la class derriere)*/
+  transition: all 0.5s ease;
+}
+ /*Controle l'animation de la carte*/
+.carte:hover, .carte2:hover, .carte3:hover{
+  transform: rotateY(180deg);
+}
+/* C'est la face principale de la carte*/
+.devant{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;/* Indique si la face arrière de l'élément doit être visible quand celui-ci est orienté vers l'utilisateur. Cela parti des l'effets principaux de l'animation*/
+  overflow: hidden;
+  border-radius: 20px;
+}
+/* Texte de la face de devant centré*/
+.text-descri{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille, on met donc le centre du texte bien au milieu de l'élément */
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 27px;
+  color: white;
+}
+/*Texte de la face arrière */
+.text_back{
+  position: absolute;
+  text-align: center;
+  left: 3%;
+  right: 3%;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+/*C'est l'arrière de la face de devant, elle est son inverse et est obtenu lorsqu'on utilise "hover" sur la carte*/
+.derriere{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: gray;
+  color: #333;
+  transform: rotateY(180deg);
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+/* A PROPOS DE NOUS */
+
+/*C'est les grandes lignes de la présentation de "a propos de"*/
+.block_carte{
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Le contenu de "à propos de"*/
+.contenant_propos{
+  background-color: #cccbcb;
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 40px auto 10px auto;
+  box-shadow: 1px 1px 35px #000;
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+/*C'est le texte pour les descriptions et le titre*/
+.definition_propos{
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/*C'est la description de Pierre HENNECART*/
+.phennecart {
+  background-image: url("../img/IMG_1381.jpg");
+  background-size: 100%;
+  background-position-y: -175px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en noir et blanc */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*Description de Pierre HENNECART quand survol souris*/
+.phennecart:hover {
+  background-image: url("../img/IMG_1381.jpg");
+  background-size: 100%;
+  background-position-y: -225px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en couleurs */
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/*Description d'Aurélien BERTRAND*/
+.abertrand {
+  background-image: url("../img/IMG_1367.jpg");
+  background-size: 100%;
+  background-position-y: -325px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en noir et blanc */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*Description d'Aurélien BERTRAND quand survol de la souris*/
+.abertrand:hover {
+  background-image: url("../img/IMG_1367.jpg");
+  background-size: 100%;
+  background-position-y: -375px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en couleurs */
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/*Description de Benjamin ROOSEBROUCK*/
+.broosebrouck {
+  background-image: url("../img/IMG_1438.png");
+  background-size: 100%;
+  background-position-y: -375px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en noir et blanc */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*Description de Benjamin ROOSEBROUCK quand survol de la souris*/
+.broosebrouck:hover {
+  background-image: url("../img/IMG_1438.png");
+  background-size: 100%;
+  background-position-y: -425px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en couleurs */
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/*Description de Guillaume RUFFIN*/
+.gruffin {
+  background-image: url("../img/IMG_1465.jpg");
+  background-size: 100%;
+  background-position-y: -375px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: black;
+  text-overflow: none;
+  /* pour mettre l'image en noir et blanc */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*Description de Guillaume RUFFIN quand survol de la souris*/
+.gruffin:hover {
+  background-image: url("../img/IMG_1465.jpg");
+  background-size: 100%;
+  background-position-y: -425px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: black;
+  text-overflow: none;
+  /* pour mettre l'image en couleurs */
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/*Description d'Alan PEYRONNY*/
+.apeyronny {
+  background-image: url("../img/13708233_927623334014204_7074866358146001250_o.jpg");
+  background-size: 100%;
+  background-position-y: -425px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en noir et blanc */
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/*Description d'Alan PEYRONNY quand survol de la souris*/
+.apeyronny:hover {
+  background-image: url("../img/13708233_927623334014204_7074866358146001250_o.jpg");
+  background-size: 100%;
+  background-position-y: -475px;
+  display: inline-block;
+  min-width: 300px;
+  height: 30%;
+  color: white;
+  text-overflow: none;
+  /* pour mettre l'image en couleurs */
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/*Marges des textes dans descriptions*/
+.texte {
+  margin: 10px 10px 10px 10px;
+}
+
+/*------Fiche technique-----*/
+
+#contenant h1{
+  margin-left: 10%;
+}
+.tuto{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+#Maquette_Article{
+  width: 65%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left:15%;
+}

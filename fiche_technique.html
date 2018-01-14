@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>La Dronitude</title>
+  <link rel="icon" type="image/png" href="img/icone.png" />
+
+</head>
+  <body>
+    <header>
+      <img src="img/banniere.png" alt="Bannière" id="banniere">
+    </header>
+
+    <nav>
+      <img src="img/logo.png" alt="Logo" id="logo">
+      <ul>
+         <li><a href="index.html">Accueil</a></li>
+         <li><a href="a_propos_de_nous.html">A propos de nous</a></li>
+         <li><a href="article.html">Article</a></li>
+         <li><a href="interview.html">Interview</a></li>
+         <li><a>Metiers</a>
+            <ul>
+              <li><a href="cogniticien.html">Cogniticien</a></li>
+              <li><a href="administrateur_reseaux.html">Administrateur réseaux</a></li>
+              <li><a href="ingenieur_traitement_image.html">Ingénieur informaticien</a></li>
+            </ul>
+         </li>
+     </ul>
+    </nav>
+
+
+
+  <div id="contenant">
+    <h1>Fiche technique</h1>
+    <br>
+      <div class="tuto">
+        <h2>Les images de l'accueil</h2>
+        <p>Lorsqu'on passe la souris sur une image, la taille de celle-ci augmente et une descritpion défile.</p>
+        <h3 style="text-indent: 60px;">Zoom de l'image</h3>
+        <p>L'image est simplement définie dans le css, avec comme option un centrage avec margin et
+           un overflow mis à hidden. Celui-ci permet de ne pas afficher les bords de l'image qui dépassent lors du zoom.
+           Et pour finir le zoom se fait avec un scale lorsqu'on passe la souris sur la zone de l'image, sa taille
+           est alors multipliée par 1.2 .</p>
+      </div>
+      <br>
+      <div class="tuto">
+
+        <h2>Fiches métier</h2>
+        <h3 style="text-indent: 60px;">Animation des cartes</h3>
+        <p>La carte est créée simplement, avec une
+           petite subtilité qui est l'option: backface-visibility, mis à hidden. Cela indique si la face arrière de
+           l'élément doit être visible quand celui-ci est orienté vers l'utilisateur.
+           Cela fait partie des effets principaux de l'animation.</p>
+        <p>L'animation de la rotation fonctionne de la manière suivante:</p>
+        <ul>
+          <li>Le devant de la carte est simplement défini avec les valeurs d'une div classique. L'arrière
+              de la carte lui est défini avec une rotation de -50%. Ce qui fait que l'arrière de la carte
+              est retourné face à l'utilisateur.</li>
+              <br>
+          <li>La rotation s'effectue lorsqu'on passe la souris sur la zone de la carte, alors celle-ci tourne de 180 degrès,
+              et c'est grâce à l'option: transform-style: preserve-3d, défini sur chaque carte, que l'effet de rotation apparaît.</li>
+        </ul>
+        <br><br>
+        <p>Nous avons également préféré placer nos avis personnels dans ces fiches afin de leur apporter plus de cachet.</p><br>
+
+        <h2>Article</h2>
+        <p>L'article est entièrement intégré au site et de manière parfaitement responsive. Il est la reproduction
+        fidèle de l'article rendu sous forme de pdf. Notre maquette resemble à cela (pour que vous puissiez voir comment nous
+        nous y sommes pris) : </p>
+        <ul>
+          <li>Le vert pomme correspond à la div "contenant_haut" qui est en fait le "fond" ou la "boîte parent" dans laquelle
+            on va mettre tout le reste.</li><br>
+            <li>Les zones en bleu sont du texte, des titres et des images et correspondent à la div "gauche"</li><br>
+            <li>Les zones en rouge foncé sont du texte, des titres et des images et correspondent à la div "droite"</li><br>
+            <li>Le trait au milieu fait office de séparateur afin de marquer le changement de page.</li>
+        </ul>
+        <img src="img/Maquette_Article.jpg" alt="Maquette de l'article" id="Maquette_Article">
+
+        <h2>Interview</h2>
+          <p>La réalisation de l'interview se décline en 3 parties :</p>
+          <ul>
+            <li><h3>L'index</h3>
+              <p>Il a fallu associer à chaque titre de la balise ol de la synthèse, un id les y référant afin que l'on puisse les implanter dans les
+                liens de l'index de cette manière : <strong>a href="#(partie)"</strong>. Ainsi de cette manière, en cliquant sur un lien, on est redirigé sur la partie identifiée au lien, rendant l'index interactif.</p></li>
+            <li><h3>La synthèse</h3>
+              <p>La synthèse de notre interview d'Antony Debarre a été présentée par une balise ol afin que nous puissions nous retrouver.</p></li>
+            <li><h3>Les photos</h3>
+              <p>Afin de ne pas ennuyer le lecteur de la synthèse, nous avons placé des photos à côté du texte, en apportant des petites informations par la même
+                animation que l'acceuil, en rapport avec le texte et l'image en question. Le positionnement responsive des photos a été la plus long travail de cette page.</p></li>
+         </ul>
+         <p> Bien que la majorité du travail ait été porté sur le positionnement de ces parties, et le fait d'obtenir une page responsive, quelques fonctionnalitées
+           ont été établies pour rendre notre site attractif, comme le lien du site web de M.Debarre sur une image et qui s'ouvre sur un autre onglet, le haut de page
+           permettant de se rediriger l'index, etc...</p>
+
+           <h2>A propos de nous</h2>
+           <p>Cette page a été réalisé en plusieurs parties expliquées ci-dessous :</p>
+           <ol>
+               <li>
+                   <h3>Trouver un concept différent</h3>
+                   <p>
+                       Le but de cette page étant de présenter rapidement les différentes personnes qui ont contribué à ce site (et au PT1 en général), il ne fallait pas créer de sous-menu ou même une page où on devait
+                       scroller plusieurs fois pour arriver au dernier contributeur. L'idée de mettre les 5 présentations sur une fenêtre -sans trop scroller- était une évidence.</p>
+               </li>
+               <li>
+                   <h3>Mélanger présentation et image</h3>
+                   <p>
+                      Il fallait donc qu'en une seule fenêtre, 5 présentations et 5 images soient disposées. Séparer chaque ligne en deux parties avec d'un côté l'image et de l'autre le texte n'aurait pas été très esthétique avec moins
+                      de texte à la clé. Il a donc fallu penser à intégrer sur chaque ligne, l'image de la personne en arrière-plan et sa description par-dessus en modifiant sa couleur en fonction du contraste</p>
+               </li>
+               <li>
+                   <h3>Rendre le tout plus vivant</h3>
+                   <p>
+                       Quand les bandes de noms ont été créées, on a du les rendre dynamique au passage de la souris (<strong>:hover</strong>). Pour ce faire, on a  rajouté un code css qui changeait automatiquement des photos
+                       en noir et blanc grâce à un filtre :<br><br>
+                       <strong>
+                           -webkit-filter: grayscale(100%);<br>
+                           filter: grayscale(100%);<br>
+                           -webkit-transition: .3s ease-in-out;<br>
+                           transition: .3s ease-in-out;<br><br>
+                       </strong>
+                       Puis lors du passage de la souris, il fallait enlever ce filtre <i>grayscale</i> :<br><br>
+                       <strong>
+                           -webkit-filter: grayscale(0);<br>
+                           filter: grayscale(0);<br><br>
+                       </strong>
+                       De cette manière, la page est plus dynamique au niveau des couleurs. Ensuite, on a dû penser au changement de position de l'image. Déjà fixé au centre de l'image sur l'axe des abscisses, la question était de
+                       changer la position "verticale" de l'image grâce à la commande css :<br><br>
+                       <strong>
+                           background-position-y<br><br>
+                       </strong>
+                       Le but ensuite était de trouver pour chaque image la bonne position initiale et la bonne position finale pour qu'au passage de la souris, le visage de chaque personne du groupe soit clairement visible.
+                   </p>
+               </li>
+           </ol>
+           <p>Tout ceci a amené à la page "A propos de nous" que vous connaissez.</p>
+        <h2>Difficultés rencontrées</h2>
+        <p>L'ensemble du groupe à rencontré certaines difficultées listées ci-dessous (avec leur solutions si elles ne sont pas assez évidentes) :</p>
+        <ul>
+          <h3>Article</h3>
+          <li>Il nous a fallu nous y prendre à plusieurs fois et passer de longues heures sur la page de l'article afin de
+              le rendre responsive à ce point... Pour voir comment nous avons procédé, référez vous à la maquette plus haut et/ou au
+              css/html de l'article directement</li><br>
+          <h3>Fiches métiers</h3>
+          <li>Nous voulions une mise en page spécifique et attrayante. Ainsi nous avons eu recours
+              aux animations des cartes expliquées plus haut.</li><br>
+          <h3>Interview</h3>
+          <li>Comme l'animation des images qui a été utilisé sur cette page est la même que celle sur l'acceuil, il a fallu adapter le code en conséquence afin que
+            l'emplacement des images puisse se réduire pour que la page soit responsive.</li><br>
+            <h3>A propos de nous</h3>
+            <li>Il a fallu retravailler la taille ainsi que le positionnement des images dans un premier temps, puis au final imposer une taille maximale à la div parente à la page pour que les images prennent bien l'ensemble de la largeur de la page.</li><br>
+        </ul>
+      </div>
+  </div>
+  <footer id="footer">
+    <div class="footer-left">
+      <h3>Découvrir notre site</h3>
+        <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a_propos_de_nous.html">A propos de nous</a></li>
+        <li><a href="article.html">Article</a></li>
+        <li><a href="interview.html">Interview</a></li>
+        <li><a href="fiche_technique.html">Conception</a></Li>
+      </ul>
+    </div>
+    <div class="footer-center">
+      <h3>Nous contacter</h3>
+      <ul>
+      <a href="https://www.google.fr/maps/place/IUT+Informatique" target="_blank">
+      <li><p>IUT Informatique</p></li>
+      <li><p>15 rue Naudet, Bâtiment 9A</p></li>
+      <li><p>33175 Gradignan</p></li></a>
+    </ul>
+        <a href="mailto:dronitude@gmail.com">dronitude@gmail.com</a>
+    </div>
+    <div class="footer-right">
+      <h3>A propos de ce site</h3>
+      <p>Site réalisé par des étudiants de l'IUT informatique de Bordeaux. Certaines images ont été prises sur le site <a href="http://www.advxtreme-video.com/">http://www.advxtreme-video.com/</a> (Propriétaire : Antony Debarre), le propriétaire nous ayant donné les droits de réutilisation de ces images.</p>
+      <p>Les autres contenus visuels (autres images, logo etc...)  ont été créés par nous-même ou sont du contenu libre de droit.</p>
+    </div>
+  </footer>
+  </body>
+</html>
