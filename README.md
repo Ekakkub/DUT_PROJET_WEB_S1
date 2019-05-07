@@ -57,7 +57,7 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 * `Accueil` : première page qui apparaît, elle contient les résumés des autres pages.
 * `A propos de nous` : description de chaque contributeur à ce projet.
 * `Article` : article rédigé par l'ensemble des membres du projet sur le secteur du drone, sous ses différents aspects (historique, économique, éthique...).
-* `Interview` : présentation d'un acteur du milieu du drone, son parcours, ses réalisations, le tout récupéré lors d'une interview.
+* `Interview` : présentation d'un acteur du milieu du drone, son parcours, ses réalisations, le tout récupéré lors d'une interview par téléphone et réecrit.
 * `Metiers` : plusieurs métiers en rapport avec le secteur du drone sont décrits objectivement (compétences requises, salaire moyen, niveau d'études...etc) et subjectivement (avis d'un ou plusieurs membre.s sur ses motivations et ses freins à exercer ce métier), les professions retenues sont : <br/>
    * Cogniticien
    * Administrateur réseaux
@@ -70,11 +70,16 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
     
 ### Licence
 
-...
+> "LICENCE BEERWARE" (Révision 42) : <br/>
+> Tant que vous conservez cet avertissement, vous pouvez faire ce que vous voulez de ce truc. Si on se rencontre un jour et que vous pensez que ce truc vaut le coup, vous pouvez me payer une bière en retour.<br/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/>
 
 ### Contributeurs
 
-...
+* [oreLINK](https://github.com/oreLINK)
+* [pierrhum](https://github.com/Pierrhum)
+* [benj-roosebrouck](https://github.com/benj-roosebrouck)
 
 ## English
 
