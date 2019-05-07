@@ -68,10 +68,7 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
     
 ### Licence
 
-> "LICENCE BEERWARE" (Révision 42) : <br/>
-> Tant que vous conservez cet avertissement, vous pouvez faire ce que vous voulez de ce truc. Si on se rencontre un jour et que vous pensez que ce truc vaut le coup, vous pouvez me payer une bière en retour.<br/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/>
+<a href="https://fr.wikipedia.org/wiki/Beerware"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/></a>
 
 ### Contributeurs
 
