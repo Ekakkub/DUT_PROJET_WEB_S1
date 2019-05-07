@@ -1,26 +1,6 @@
 {
-  "name": "subdomains",
-  "version": "1.0.0",
-  "description": "A hapi plugin which extracts subdomains from uri",
-  "main": "plugin/index.js",
-  "scripts": {
-    "test": "lab -c"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vemarav/subdomains"
-  },
-  "keywords": [
-    "hapi-subdomains",
-    "subdomains",
-    "extract-subdomains"
-  ],
-  "author": "Aravind Vemula",
-  "license": "MIT",
-  "devDependencies": {
-    "code": "^5.2.4",
-    "eslint": "^5.9.0",
-    "hapi": "^17.8.1",
-    "lab": "^18.0.0"
-  }
+  "schemaVersion": 1,
+  "label": "hello",
+  "message": "sweet world",
+  "color": "orange"
 }
