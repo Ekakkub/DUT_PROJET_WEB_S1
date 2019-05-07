@@ -11,7 +11,7 @@
 
 Projet du semestre 1 d'IUT Informatique, création d'un site web statique complet (HTML, CSS, contenu).
 
-![#00ff00](https://placehold.it/15/00ff00/000000?text=+)   *Projet terminé*
+![#008000](https://placehold.it/15/008000/000000?text=+)   *Projet terminé*
 
 ### Prérequis
 
@@ -80,7 +80,7 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 
 IUT science of computer semester 1 web project, creation of a complete static website (HTML, CSS, content).
 
-![#00ff00](https://placehold.it/15/00ff00/000000?text=+)   *Project completed*
+![#008000](https://placehold.it/15/008000/000000?text=+)   *Project completed*
 
 `Description coming soon...`
 
