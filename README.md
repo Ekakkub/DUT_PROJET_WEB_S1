@@ -17,29 +17,55 @@ Projet du semestre 1 d'IUT Informatique, création d'un site web statique comple
 
 ### Prérequis
 
-...
+*Aucun prérequis*
 
 ### Installation
 
 #### macOS & Linux
 
+1. Clonez le projet dans le répertoire de votre choix.
+
 ```sh
-...
+git clone https://github.com/oreLINK/IUT-Static-Website.git
 ```
+
+Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharger le projet avec l'interface graphique en cliquant sur `Clone or download` puis `Download ZIP`.
+
+2. Allez dans le dossier `IUT-Statix-Website`.
+
+3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
 
 #### Windows
 
+*Pour utiliser la ou les ligne.s de commande.s à venir, utilisez Windows PowerShell ou [Git Bash](https://gitforwindows.org/).*
+
+1. Clonez le projet dans le répertoire de votre choix.
+
 ```sh
-...
+git clone https://github.com/oreLINK/IUT-Static-Website.git
 ```
 
-### Exemple d'utilisation
+Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharger le projet avec l'interface graphique en cliquant sur `Clone or download` puis `Download ZIP`.
 
-...
+2. Allez dans le dossier `IUT-Statix-Website`.
+
+3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
+
+### Utilisation
+
+Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
+* `Accueil` : première page qui apparaît, elle contient les résumés des autres pages.
+* `A propos de nous` : description de chaque contributeur à ce projet.
+* `Article` : article rédigé par l'ensemble des membres du projet sur le secteur du drone, sous ses différents aspects (historique, économique, éthique...).
+* `Interview` : présentation d'un acteur du milieu du drone, son parcours, ses réalisations, le tout récupéré lors d'une interview.
+* `Metiers` : plusieurs métiers en rapport avec le secteur du drone sont décrits objectivement (compétences requises, salaire moyen, niveau d'études...etc) et subjectivement (avis d'un ou plusieurs membre.s sur ses motivations et ses freins à exercer ce métier), les professions retenues sont : <br/>
+   * Cogniticien
+   * Administrateur réseaux
+   * Ingénieur en traitement de l'image
 
 ### Historique des versions
 
-* 1.0
+* 1.0 - *15/01/18*
     * Finalisation du projet
     
 ### Licence
@@ -49,8 +75,6 @@ Projet du semestre 1 d'IUT Informatique, création d'un site web statique comple
 ### Contributeurs
 
 ...
-
-
 
 ## English
 
