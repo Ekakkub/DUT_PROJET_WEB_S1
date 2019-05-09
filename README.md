@@ -9,7 +9,7 @@
 
 ## Français
 
-Projet du semestre 1 d'IUT Informatique, création d'un site web statique complet (HTML, CSS, contenu).
+Dans le cadre du premier semestre de ma formation en IUT Informatique, il nous a été demandé de créer un site web statique de A à Z que ce soit le squelette de celui-ci (HTML), son design (CSS), ou son contenu (sujet sur les drones) dont l'interview d'un professionnel du secteur. Ce projet a duré 2 mois et s'est terminé en janvier 2018 avec une soutenance, un diaporama ainsi que d'une démonstration du site.
 
 ![#008000](https://placehold.it/15/008000/000000?text=+)   *Projet terminé*
 
@@ -75,6 +75,8 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 * [oreLINK](https://github.com/oreLINK)
 * [pierrhum](https://github.com/Pierrhum)
 * [benj-roosebrouck](https://github.com/benj-roosebrouck)
+* Guillaume
+* Allan
 
 ### Contributions
 
