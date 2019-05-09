@@ -49,6 +49,10 @@ Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharg
 
 3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
 
+### Accès en ligne
+
+Ce projet est accessible en ligne, cliquez [ici](https://orelink.github.io/IUT-Static-Website/).
+
 ### Utilisation
 
 Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
