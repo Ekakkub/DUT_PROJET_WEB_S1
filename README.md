@@ -7,19 +7,19 @@
 
 :point_right: [:fr:](#français) :point_right: [:us:](#english)
 
-## Français
+# Français
 
 Dans le cadre du premier semestre de ma formation en IUT Informatique, il nous a été demandé de créer un site web statique de A à Z que ce soit le squelette de celui-ci (HTML), son design (CSS), ou son contenu (sujet sur les drones) dont l'interview d'un professionnel du secteur. Ce projet a duré 2 mois et s'est terminé en janvier 2018 avec une soutenance, un diaporama ainsi que d'une démonstration du site.
 
 ![#008000](https://placehold.it/15/008000/000000?text=+)   *Projet terminé*
 
-### Prérequis
+## Prérequis
 
 *Aucun prérequis*
 
-### Installation
+## Installation
 
-#### macOS & Linux
+### macOS & Linux
 
 1. Clonez le projet dans le répertoire de votre choix.
 
@@ -33,7 +33,7 @@ Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharg
 
 3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
 
-#### Windows
+### Windows
 
 *Pour utiliser la ou les ligne.s de commande.s à venir, utilisez [Windows PowerShell](https://www.malekal.com/powershell-windows-10-quest-ce-comment-ouvrir-commandes/) ou [Git Bash](https://gitforwindows.org/).*
 
@@ -49,11 +49,11 @@ Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharg
 
 3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
 
-### Accès en ligne
+## Accès en ligne
 
 Ce projet est accessible en ligne, cliquez [ici](https://orelink.github.io/IUT-Static-Website/).
 
-### Utilisation
+## Utilisation
 
 Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 * `Accueil` : première page qui apparaît, elle contient les résumés des autres pages.
@@ -65,16 +65,16 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
    * Administrateur réseaux
    * Ingénieur en traitement de l'image
 
-### Historique des versions
+## Historique des versions
 
 * 1.0 - *15/01/18*
     * Finalisation du projet
     
-### Licence
+## Licence
 
 <a href="https://fr.wikipedia.org/wiki/Beerware"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/></a>
 
-### Contributeurs
+## Contributeurs
 
 * [oreLINK](https://github.com/oreLINK)
 * [pierrhum](https://github.com/Pierrhum)
@@ -82,11 +82,11 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 * Guillaume
 * Allan
 
-### Contributions
+## Contributions
 
 *Ce projet n'accepte pas les contributions externes.*
 
-## English
+# English
 
 IUT science of computer semester 1 web project, creation of a complete static website (HTML, CSS, content).
 
