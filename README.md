@@ -88,7 +88,7 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 
 # English
 
-IUT science of computer semester 1 web project, creation of a complete static website (HTML, CSS, content).
+As part of the first semester of my training in IT ITU, we were asked to create a static website from A to Z whether it is the skeleton of it (HTML), its design (CSS), or its content (subject on drones) including an interview with an industry professional. This project lasted 2 months and ended in January 2018 with a presentation, a slide show and a demonstration of the site.
 
 ![#008000](https://placehold.it/15/008000/000000?text=+)   *Project completed*
 
