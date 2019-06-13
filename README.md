@@ -160,7 +160,7 @@ The site is divided into 5 parts that you can browse freely : <br />
     
 | Release | Description | Release date |
 | ------- | ----------- | ------------ |
-|  1.0.0  | Finalization of the project | 01/15/18 |
+|  1.0.0  | Finalization of the project | Jan. 15 2018 |
     
 ## License
 
