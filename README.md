@@ -82,6 +82,11 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
 * Guillaume
 * Allan
 
+<!---
+| ![me](https://gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?size=100)           |
+| --------------------------------- |
+| [oreLINK](https://pablo.life)   |
+-->
 ## Contributions
 
 *Ce projet n'accepte pas les contributions externes.*
