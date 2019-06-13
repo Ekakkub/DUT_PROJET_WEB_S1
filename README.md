@@ -69,7 +69,7 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
     
 | Version | Description | Date de sortie |
 | ------- | ----------- | ------------ |
-|  1.0.0  | Corrected the configuration | 15/01/18 |
+|  1.0.0  | Finalisation du projet | 15/01/18 |
     
 ## Licence
 
