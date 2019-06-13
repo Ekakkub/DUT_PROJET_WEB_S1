@@ -66,9 +66,10 @@ Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
    * Ingénieur en traitement de l'image
 
 ## Historique des versions
-
-* 1.0 - *15/01/18*
-    * Finalisation du projet
+    
+| Version | Description | Date de sortie |
+| ------- | ----------- | ------------ |
+|  1.0.0  | Corrected the configuration | 15/01/18 |
     
 ## Licence
 
@@ -155,10 +156,11 @@ The site is divided into 5 parts that you can browse freely : <br />
    * Network administrator (Administrateur réseaux)
    * Image Processing Engineer (Ingénieur en traitement de l'image)
 
-## Version history
-
-* 1.0 - *01/15/18*
-    * Finalization of the project
+## Release history
+    
+| Release | Description | Release date |
+| ------- | ----------- | ------------ |
+|  1.0.0  | Finalization of the project | 01/15/18 |
     
 ## License
 
