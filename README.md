@@ -49,7 +49,7 @@ Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharg
 
 3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
 
-## Accès en ligne
+## Démonstration
 
 Ce projet est accessible en ligne, cliquez [ici](https://orelink.github.io/IUT-Static-Website/).
 
@@ -140,7 +140,7 @@ If you don't want to proceed as above you can always download the project with t
 
 3. Open the file `index.html` with the browser of your choice.
 
-## Online access
+## Demo
 
 This project is accessible online, click [here](https://orelink.github.io/IUT-Static-Website/).
 
