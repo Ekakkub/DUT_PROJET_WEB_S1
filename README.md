@@ -13,13 +13,13 @@ As part of the first semester of my training in DUT in Computer Science, we were
 
 ![#008000](https://placehold.it/15/008000/000000?text=+)   *Project completed*
 
-# Prerequisites
+## Prerequisites
 
 *No prerequisites required.*
 
-# Installation
+## Installation
 
-## macOS & Linux
+### macOS & Linux
 
 1. Clone the project in the directory of your choice.
 
@@ -33,7 +33,7 @@ If you don't want to proceed as above you can always download the project with t
 
 3. Open the file `index.html` with the browser of your choice.
 
-## Windows
+### Windows
 
 *To use the command line or lines to come, use [Windows PowerShell](https://www.malekal.com/powershell-windows-10-quest-ce-comment-ouvrir-commandes/) or [Git Bash](https://gitforwindows.org/).*
 
@@ -49,11 +49,11 @@ If you don't want to proceed as above you can always download the project with t
 
 3. Open the file `index.html` with the browser of your choice.
 
-# Demo
+## Demo
 
 This project is accessible online, click [here](https://orelink.github.io/IUT-Static-Website/).
 
-# Utilisation
+## Utilisation
 
 The site is divided into 5 parts that you can browse freely : <br />
 * `Accueil` : the first page that appears, it contains the summaries of the other pages.
@@ -65,17 +65,17 @@ The site is divided into 5 parts that you can browse freely : <br />
    * Network administrator (Administrateur réseaux)
    * Image Processing Engineer (Ingénieur en traitement de l'image)
 
-# Release history
+## Release history
     
 | Release | Description | Release date |
 | ------- | ----------- | ------------ |
 |  1.0.0  | Finalization of the project | Jan. 15 2018 |
     
-# License
+## License
 
 <a href="https://en.wikipedia.org/wiki/Beerware"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/></a>
 
-# Contributors
+## Contributors
 
 * [oreLINK](https://github.com/oreLINK)
 * [pierrhum](https://github.com/Pierrhum)
@@ -83,7 +83,7 @@ The site is divided into 5 parts that you can browse freely : <br />
 * Guillaume
 * Allan
 
-# Contributions
+## Contributions
 
 *This project doesn't accept external contributions.*
 
