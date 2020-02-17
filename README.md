@@ -3,112 +3,21 @@
 ![version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![contribution](https://img.shields.io/badge/contribution-no-red.svg)
 
-> Choose your language
-
-:point_right: [:fr:](#français) :point_right: [:us:](#english)
-
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
-
-# Français
-
-Dans le cadre du premier semestre de ma formation en DUT Informatique, il nous a été demandé de créer un site web statique de A à Z que ce soit le squelette de celui-ci (HTML), son design (CSS), ou son contenu (sujet sur les drones) dont l'interview d'un professionnel du secteur. Ce projet a duré 2 mois et s'est terminé en janvier 2018 avec une soutenance, un diaporama ainsi que d'une démonstration du site.
-
-![#008000](https://placehold.it/15/008000/000000?text=+)   *Projet terminé*
-
-## Prérequis
-
-*Aucun prérequis*
-
-## Installation
-
-### macOS & Linux
-
-1. Clonez le projet dans le répertoire de votre choix.
-
-```sh
-git clone https://github.com/oreLINK/IUT-Static-Website.git
-```
-
-Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharger le projet avec l'interface graphique en cliquant sur `Clone or download` puis `Download ZIP`.
-
-2. Allez dans le dossier `IUT-Statix-Website`.
-
-3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
-
-### Windows
-
-*Pour utiliser la ou les ligne.s de commande.s à venir, utilisez [Windows PowerShell](https://www.malekal.com/powershell-windows-10-quest-ce-comment-ouvrir-commandes/) ou [Git Bash](https://gitforwindows.org/).*
-
-1. Clonez le projet dans le répertoire de votre choix.
-
-```sh
-git clone https://github.com/oreLINK/IUT-Static-Website.git
-```
-
-Si vous ne voulez pas procéder comme ci-dessus vous pouvez toujours télécharger le projet avec l'interface graphique en cliquant sur `Clone or download` puis `Download ZIP`.
-
-2. Allez dans le dossier `IUT-Statix-Website`.
-
-3. Ouvrez le fichier `index.html` avec le navigateur de votre choix.
-
-## Démonstration
-
-Ce projet est accessible en ligne, cliquez [ici](https://orelink.github.io/IUT-Static-Website/).
-
-## Utilisation
-
-Le site se décompose en 5 parties que vous pouvez parcourir librement : <br />
-* `Accueil` : première page qui apparaît, elle contient les résumés des autres pages.
-* `A propos de nous` : description de chaque contributeur à ce projet.
-* `Article` : article rédigé par l'ensemble des membres du projet sur le secteur du drone, sous ses différents aspects (historique, économique, éthique...).
-* `Interview` : présentation d'un acteur du milieu du drone, son parcours, ses réalisations, le tout récupéré lors d'une interview par téléphone et réecrit.
-* `Metiers` : plusieurs métiers en rapport avec le secteur du drone sont décrits objectivement (compétences requises, salaire moyen, niveau d'études...etc) et subjectivement (avis d'un ou plusieurs membre.s sur ses motivations et ses freins à exercer ce métier), les professions retenues sont : <br/>
-   * Cogniticien
-   * Administrateur réseaux
-   * Ingénieur en traitement de l'image
-
-## Historique des versions
-    
-| Version | Description | Date de sortie |
-| ------- | ----------- | ------------ |
-|  1.0.0  | Finalisation du projet | 15/01/18 |
-    
-## Licence
-
-<a href="https://fr.wikipedia.org/wiki/Beerware"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/></a>
-
-## Contributeurs
-
-* [oreLINK](https://github.com/oreLINK)
-* [pierrhum](https://github.com/Pierrhum)
-* [benj-roosebrouck](https://github.com/benj-roosebrouck)
-* Guillaume
-* Allan
-
-<!---
-| ![me](https://gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?size=100)           |
-| --------------------------------- |
-| [oreLINK](https://pablo.life)   |
--->
-## Contributions
-
-*Ce projet n'accepte pas les contributions externes.*
-
-# English
 
 As part of the first semester of my training in DUT in Computer Science, we were asked to create a static website from A to Z whether it is the skeleton of it (HTML), its design (CSS), or its content (subject on drones) including an interview with an industry professional. This project lasted 2 months and ended in January 2018 with a presentation, a slide show and a demonstration of the site.
 
 ![#008000](https://placehold.it/15/008000/000000?text=+)   *Project completed*
 
-## Prerequisite
+# Prerequisite
 
 *No prerequisite*
 
-## Installation
+# Installation
 
-### macOS & Linux
+## macOS & Linux
 
 1. Clone the project in the directory of your choice.
 
@@ -122,7 +31,7 @@ If you don't want to proceed as above you can always download the project with t
 
 3. Open the file `index.html` with the browser of your choice.
 
-### Windows
+## Windows
 
 *To use the command line or lines to come, use [Windows PowerShell](https://www.malekal.com/powershell-windows-10-quest-ce-comment-ouvrir-commandes/) or [Git Bash](https://gitforwindows.org/).*
 
@@ -138,11 +47,11 @@ If you don't want to proceed as above you can always download the project with t
 
 3. Open the file `index.html` with the browser of your choice.
 
-## Demo
+# Demo
 
 This project is accessible online, click [here](https://orelink.github.io/IUT-Static-Website/).
 
-## Utilisation
+# Utilisation
 
 The site is divided into 5 parts that you can browse freely : <br />
 * `Accueil` : the first page that appears, it contains the summaries of the other pages.
@@ -154,17 +63,17 @@ The site is divided into 5 parts that you can browse freely : <br />
    * Network administrator (Administrateur réseaux)
    * Image Processing Engineer (Ingénieur en traitement de l'image)
 
-## Release history
+# Release history
     
 | Release | Description | Release date |
 | ------- | ----------- | ------------ |
 |  1.0.0  | Finalization of the project | Jan. 15 2018 |
     
-## License
+# License
 
 <a href="https://en.wikipedia.org/wiki/Beerware"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png" alt="Licence Beerware" width="100" height="100"/></a>
 
-## Contributors
+# Contributors
 
 * [oreLINK](https://github.com/oreLINK)
 * [pierrhum](https://github.com/Pierrhum)
@@ -172,7 +81,7 @@ The site is divided into 5 parts that you can browse freely : <br />
 * Guillaume
 * Allan
 
-## Contributions
+# Contributions
 
 *This project doesn't accept external contributions.*
 
