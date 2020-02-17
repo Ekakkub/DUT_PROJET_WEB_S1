@@ -7,6 +7,10 @@
 
 :point_right: [:fr:](#français) :point_right: [:us:](#english)
 
+![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |
+--- | --- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
+
 # Français
 
 Dans le cadre du premier semestre de ma formation en DUT Informatique, il nous a été demandé de créer un site web statique de A à Z que ce soit le squelette de celui-ci (HTML), son design (CSS), ou son contenu (sujet sur les drones) dont l'interview d'un professionnel du secteur. Ce projet a duré 2 mois et s'est terminé en janvier 2018 avec une soutenance, un diaporama ainsi que d'une démonstration du site.
@@ -101,12 +105,6 @@ As part of the first semester of my training in DUT in Computer Science, we were
 ## Prerequisite
 
 *No prerequisite*
-
-## Browser Support
-
-![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |
---- | --- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## Installation
 
